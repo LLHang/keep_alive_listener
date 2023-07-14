@@ -1,7 +1,7 @@
 name: keep_alive_listener
 description: Used to listen for whether the parent Widget is in a kept alive state
 version: 0.0.1
-homepage:
+homepage: https://github.com/LLHang/keep_alive_listener
 
 environment:
   sdk: '>=2.18.0 <4.0.0'
