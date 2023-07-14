@@ -68,7 +68,7 @@ class DefaultKeepAliveNotifier extends StatefulWidget {
   static ValueNotifier<bool> of(BuildContext context) {
     final notifier =
     context.dependOnInheritedWidgetOfExactType<_DefaultKeepAliveNotifierScope>();
-    assert(notifier != null, '未找到上层 KeptAliveNotifier');
+    assert(notifier != null, 'No KeepAliveNotifier found in context');
     return notifier?.notifier ?? ValueNotifier(false);
   }
 
