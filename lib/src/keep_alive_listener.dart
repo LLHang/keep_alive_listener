@@ -17,8 +17,8 @@ class KeepAliveListener extends SingleChildRenderObjectWidget {
   @override
   void updateRenderObject(
       BuildContext context, covariant RenderKeepAliveListener renderObject) {
-    renderObject.keepAliveListener = keepAliveListener;
     super.updateRenderObject(context, renderObject);
+    renderObject.keepAliveListener = keepAliveListener;
   }
 }
 
